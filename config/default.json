@@ -1,0 +1,17 @@
+{
+    "Crawler": {
+        "url": "http://",
+        "maxConcurrency": 25, 
+        "maxDepth": 15,
+        "interval": 450,
+        "bufferSize": 10
+    },
+    "Proxy": {
+        "hostName": "127.0.0.1",
+        "port": 8888
+    },
+    "Store": {
+        "url": "http://{user}{password}@127.0.0.1:5984",
+        "database": "store"
+    }
+}
